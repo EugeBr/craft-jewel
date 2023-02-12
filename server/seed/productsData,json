@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Turn Earrings Sky",
+        "category": "Earrings",
+        "price": 32.50,
+        "description": "TURN earrings combine a small golden ball stud with sky blue aquamarine beads. When closing the earrings you create a hoop effect with the beaded gemstones which are attached to the closure of the earring itself. This design combines elegance and an avant-garde character. Perfect for creating your own mix & match combinations.",
+        "material": "Niquel tested brass and aquamarine and 24K gold plated",
+        "pictures": ""
+    },
+    {
+        "name": "Tupa Bracelet",
+        "category": "Bracelets",
+        "price": 27.00,
+        "description": "The TUPA bracelet consists of a square chain, a squared blue gemstone and an golden brass ball. To make this bracelet, we used characteristic elements of Klimbim jewelry, a semi-precious stone such and a geometric brass piece. The TUPA bracelet is unique and carefully polished and finished.",
+        "material": "Niquel tested brass and gemstone, 24K gold plated",
+        "pictures": ""
+    },
+    {
+        "name": "Bloom Earrings",
+        "category": "Earrings",
+        "price": 32.00,
+        "description": "The BLOOM Earrings are made up of a brass creole which features a gemstone flower created by five 3 mm small orange carnelian beads. The diameter of the charm is approx. 1.5 cm and the diameter of the creole is 2 cm.",
+        "material": "Niquel tested brass and gemstone, 24K gold plated",
+        "pictures": ""
+    },
+    {
+        "name": "Eternity Ring",
+        "category": "Rings",
+        "price": 29.50,
+        "description": "Add some elegance to your outfit with this gorgeous turquoise eternity ring. Created in sterling silver with 5 line turquoise cubic zirconia in a pave setting and 18 K rose gold-plated. You can wear this ring on it’s own or you can match with turquoise eternity earrings for a complete match.",
+        "material": "Turquoise zirconia and 18K rose gold-plated",
+        "pictures": ""
+    },
+    {
+        "name": "Eternity Hoop Earrings",
+        "category": "Earrings",
+        "price": 45.50,
+        "description": "Add some embellishments to your ears with these Rose Gold Plated Turquoise Eternity Hoop Earrings In Sterling Silver. Ideal to be worn with any outfit for daily wear.",
+        "material": "Turquoise zirconia and 18K rose gold-plated",
+        "pictures": ""
+    },
+    {
+        "name": "Pea Pond Ring",
+        "category": "Rings",
+        "price": 34.50,
+        "description": "Talking about common denominators between peas, sterling silver and nature..these nature-inspired sterling silver 'Pea Pods' ring plays a central part in this mix.",
+        "material": "Aventurine and Silver/18K Vermeil",
+        "pictures": ""
+    },
+    {
+        "name": "Lotus Whisperer",
+        "category": "Bracelets",
+        "price": 44.00,
+        "description": "Little Whispers, elegant tunes of an enchanting melody... Loving Mother Nature and creativity in all of its forms with this elegant handmade 'Lotus Whispers' Bracelet.",
+        "material": "Rose Quartz and Sterling Silver s925",
+        "pictures": ""
+    },
+    {
+        "name": "Lotus Flower Open Ring",
+        "category": "Rings",
+        "price": 46.50,
+        "description": "Little Whispers, elegant tunes of an enchanting melody... Loving Mother Nature and creativity in all of its forms with this elegant handmade 'Lotus Whispers' ring. This jewellery is ideal for any occasion; indulge yourself or gift it for a birthday or any other special occasion.",
+        "material": "Rose Quartz and Sterling Silver s925",
+        "pictures": ""
+    },
+    {
+        "name": "Flower Power Necklace",
+        "category": "Necklaces",
+        "price": 40.50,
+        "description": "Crafted from precious metals with flawless lines, these delicate jewellery piece has come to life with the love of nature and an eye for detail. A lovely flower pendant necklace to compliment your outfit any season.",
+        "material": "18K Gold-plated, Sterling silver",
+        "pictures": ""
+    },
+    {
+        "name": "Spring in the air Necklace",
+        "category": "Necklaces",
+        "price": 44.50,
+        "description": "This delicate jewellery piece has come to life with the love of nature and an eye for detail. A lovely 'Spring in the Air' necklaces made from sterling silver and sprinkled with gold-plated and aventurine stone little leaves. ",
+        "material": "Aventurine, Sterling Silver s925 and 18K Gold-plated ornaments",
+        "pictures": ""
+    }
+]
