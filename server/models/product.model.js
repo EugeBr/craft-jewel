@@ -8,6 +8,10 @@ const productSchema = new Schema(
       trim: true,
       // unique: true -> Ideally, should be unique, but its up to you
     },
+    category: {
+      type: String,
+      enum: ["Bracelets", "Rings", "Earrings", "Necklaces"]
+  },
     price: { type: Number, required: true, min: 0 },
 
     description: {
