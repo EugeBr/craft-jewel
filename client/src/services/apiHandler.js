@@ -1,11 +1,6 @@
-import axios from "axios"
+import service from "./api";
 
 // We can create an instance of axios and set it with some base values like the URL to our API.
-
-const service = axios.create({
-	baseURL: process.env.REACT_APP_API_URL,
-	withCredentials: true,
-})
 
 /**
  * ! This function configure the axios instance called service
@@ -13,38 +8,38 @@ const service = axios.create({
  */
 
 service.interceptors.request.use((config) => {
-	const token = localStorage.getItem("authToken")
-	config.headers.Authorization = token ? `Bearer ${token}` : ""
-	return config
-})
+  const token = localStorage.getItem("authToken");
+  config.headers.Authorization = token ? `Bearer ${token}` : "";
+  return config;
+});
 
 service.signup = async (user) => {
-	try {
-		const { data } = await service.post("/auth/signup", user)
-		return data
-	} catch (error) {
-		errorHandler(error)
-	}
-}
+  try {
+    const { data } = await service.post("/auth/signup", user);
+    return data;
+  } catch (error) {
+    errorHandler(error);
+  }
+};
 
 service.signin = async (user) => {
-	try {
-		const { data } = await service.post("/auth/signin", user)
-		console.log(data)
-		return data
-	} catch (error) {
-		errorHandler(error)
-	}
-}
+  try {
+    const { data } = await service.post("/auth/signin", user);
+    console.log(data);
+    return data;
+  } catch (error) {
+    errorHandler(error);
+  }
+};
 
 service.isLoggedIn = async () => {
-	try {
-		const { data } = await service.get("/auth/me")
-		return data
-	} catch (error) {
-		errorHandler(error)
-	}
-}
+  try {
+    const { data } = await service.get("/auth/me");
+    return data;
+  } catch (error) {
+    errorHandler(error);
+  }
+};
 // ? Example of a function created to...  getAllTheCats
 // service.getAllTheCats = () {
 // 	return service
@@ -56,11 +51,11 @@ service.isLoggedIn = async () => {
 
 //! Error handling to use in the catch
 function errorHandler(error) {
-	if (error.response.data) {
-		console.log(error.response && error.response.data)
-		throw error
-	}
-	throw error
+  if (error.response.data) {
+    console.log(error.response && error.response.data);
+    throw error;
+  }
+  throw error;
 }
 
-export default service
+export default service;
